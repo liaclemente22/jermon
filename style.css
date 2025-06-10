@@ -18,7 +18,7 @@ body {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.7); /* Optional dark overlay */
+  background: rgba(0, 0, 0, 0.7); 
   z-index: 1;
 }
 
@@ -34,20 +34,20 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 250px;           /* Adjusted height for better content fit */
-  max-width: 800px;        /* Limits width for smaller display */
-  width: 100%;             /* Responsive width */
-  margin: 0 auto;          /* Center horizontally */
+  height: 250px;          
+  max-width: 800px;       
+  width: 100%;          
+  margin: 0 auto;        
   border-radius: 12px;
   position: relative;
   color: white;
   overflow: hidden;
-  padding: 1.5rem;         /* Space inside the box */
+  padding: 1.5rem;        
   text-align: center;
 }
 
 #music-image .overlay {
-  background: rgba(0, 0, 0, 0.5);  /* Dark overlay for readability */
+  background: rgba(0, 0, 0, 0.5); 
   position: absolute;
   top: 0; left: 0;
   width: 100%;
@@ -68,14 +68,10 @@ body {
 }
 
 
-
-
 #music h3 {
   z-index: 2;
 }
 
-
-/* Optional: style improvements */
 section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -128,7 +124,7 @@ iframe {
 }
 
 #contact {
-  margin-top: 40px; /* or adjust as needed */
+  margin-top: 40px;
 }
 
 
@@ -143,9 +139,9 @@ iframe {
 }
 
 .contact-form-column .overlay {
-  background: rgba(215, 227, 214, 0.95); /* or any background you prefer */
+  background: rgba(215, 227, 214, 0.95);
   color: #000;
-  border: 2px solid #fff; /* solid white */
+  border: 2px solid #fff;
   border-radius: 15px;
   padding: 2rem;
   margin: 1.5rem;
@@ -176,7 +172,7 @@ iframe {
 }
 
 .social-column {
-  background: rgba(0, 0, 0, 0.5); /* Optional: subtle dark background for social icons */
+  background: rgba(0, 0, 0, 0.5); 
   color: white;
 }
 
