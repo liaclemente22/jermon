@@ -183,3 +183,20 @@ iframe {
 .social-column img:hover {
   transform: scale(1.1);
 }
+
+
+  #gaming .img-fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px 5px #ffcc5b;
+  }
+  
+  #gaming .carousel-item iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px 5px #ffcc5b;
+  }
+  
+  #gaming a.btn:hover {
+    background: #ffcc5b;
+    color: #111;
+    box-shadow: 0 0 20px 5px #ffcc5b;
+  }

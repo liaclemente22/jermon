@@ -156,25 +156,98 @@
 
 
 </section>
-
-
 <!-- Gaming Section -->
-<section id="gaming" class="container-fluid py-5 bg-dark text-white">
+<section id="gaming" class="container-fluid py-5" style="background: #111; color: #fff">
   <div class="container">
-    <h3 class="text-center mb-4"> Gaming</h3>
-    <div class="row align-items-center">
+    <h3 class="text-center mb-4" style="letter-spacing: 1px; color: #ffcc5b">
+      Gaming
+    </h3>
+
+    <div class="row align-items-center mb-4">
       <div class="col-md-6 mb-4 mb-md-0">
-        <img src="./images/gaming.jpg" class="img-fluid rounded shadow" alt="Gaming Image" />
+        <img src="./images/gaming.jpg" 
+             class="img-fluid rounded shadow" 
+             alt="Gaming Image" 
+             style="transition: transform 0.3s ease, box-shadow 0.3s ease">
       </div>
       <div class="col-md-6">
-        <h5>My Gaming Adventures</h5>
-        <p>I explore immersive story-driven games. From fantasy RPGs to fast-paced shooters, join me in my digital quests.</p>
-        <a href="#" class="btn btn-outline-light">Watch Gameplay</a>
+  <h5 style="color: #ffcc5b; margin-bottom: 15px">
+    My Gaming Adventures
+  </h5>
+  <p style="color: #ccc">
+    I explore immersive story-driven games. From fantasy RPGs to fast-paced shooters, join me in my digital quests.
+  </p>
+  <a 
+    href="https://www.youtube.com/@Vex_Ent" 
+    target="_blank" 
+    class="btn" 
+    style="border: 1px solid #ffcc5b; color: #ffcc5b; background: none; transition: all 0.3s ease">
+    Watch More on YouTube
+  </a>
+
+  <!-- Carousel starts here -->
+  <div id="carouselGaming" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselGaming" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Video 1"></button>
+      <button type="button" data-bs-target="#carouselGaming" data-bs-slide-to="1" aria-label="Video 2"></button>
+      <button type="button" data-bs-target="#carouselGaming" data-bs-slide-to="2" aria-label="Video 3"></button>
+      <button type="button" data-bs-target="#carouselGaming" data-bs-slide-to="3" aria-label="Video 4"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center">
+          <iframe src="https://www.youtube.com/embed/L4wHmLprBEo" 
+                   height="250" 
+                   width="100%" 
+                   frameborder="0" 
+                   allowfullscreen 
+                   style="border-radius: 20px; transition: transform 0.3s ease, box-shadow 0.3s ease;"></iframe>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <iframe src="https://www.youtube.com/embed/PXihva5QTGI" 
+                   height="250" 
+                   width="100%" 
+                   frameborder="0" 
+                   allowfullscreen 
+                   style="border-radius: 20px; transition: transform 0.3s ease, box-shadow 0.3s ease;"></iframe>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <iframe src="https://www.youtube.com/embed/U1Y4xJ2Y__I" 
+                   height="250" 
+                   width="100%" 
+                   frameborder="0" 
+                   allowfullscreen 
+                   style="border-radius: 20px; transition: transform 0.3s ease, box-shadow 0.3s ease;"></iframe>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <iframe src="https://www.youtube.com/embed/Zx4VtGmhqXI" 
+                   height="250" 
+                   width="100%" 
+                   frameborder="0" 
+                   allowfullscreen 
+                   style="border-radius: 20px; transition: transform 0.3s ease, box-shadow 0.3s ease;"></iframe>
+        </div>
       </div>
     </div>
-  </div>
-</section>
 
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaming" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselGaming" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div><!-- Carousel ends here -->
+
+</div>
+
+ 
 
 
 <!-- Contact Section -->
@@ -205,7 +278,7 @@
       <div class="overlay p-4 w-100">
         <h2>Contact Me</h2>
         <p>I’d love to hear from you—whether it’s about music, writing, or collaboration.</p>
-        <form>
+        <form action="mailto:News4Jermon@proton.me"  method="POST" enctype="text/plain">
           <div class="form-group mb-3">
             <label for="name">Name</label>
             <input type="text" id="name" class="form-control bg-transparent text-dark border-dark" placeholder="Your name">
